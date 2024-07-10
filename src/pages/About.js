@@ -1,12 +1,13 @@
 import React from 'react';
 import './About.css'
+import "../public/Karim Hafiz Resume.pdf"
 
 const About = () => {
     return (
         <main>
             <h1>About Me</h1>
             <p className="resume">
-              <a href= "/Karim Hafiz Resume.pdf" target="_blank" rel="noopener noreferrer">View my Resume/CV</a>
+              <a href= "../public/Karim Hafiz Resume.pdf" target="_blank" rel="noopener noreferrer">View my Resume/CV</a>
             </p>
             <section>
                 <div className="section-about-me">
