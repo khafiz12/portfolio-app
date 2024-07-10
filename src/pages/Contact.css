@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.contact-list-item {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.contact-list-item:hover {
+    text-decoration: underline;
+}
+
+.Form ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.Form li {
+    margin-bottom: 10px;
+}
+
+.form-input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea.form-input {
+    height: 150px;
+}
+
+.submit-message {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-message:hover {
+    background-color: #0056b3;
+}
+
+.icon-div {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pic {
+    width: 40px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}
