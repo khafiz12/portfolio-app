@@ -27,7 +27,7 @@ const projects = [
     description: 'The MyFlix-API app enables users to query data from a custom-built database. It leverages Node.js and the MERN stack to provide a robust backend API for managing and retrieving movie information, offering a seamless experience for users interacting with movie data.',
     image: movieApi,
     link: 'https://github.com/khafiz12/movie_api',
-    techniques: ['Node.js', 'Express', 'MongoDB', 'MERN Stack']
+    techniques: ['Node.js', 'Express', 'MongoDB', 'MERN Stack', 'SQL', 'React.js']
   },
   {
     title: 'MyFlix Movies',
@@ -41,7 +41,7 @@ const projects = [
     description: 'The Meet app is a serverless, progressive web application (PWA) developed with React, designed to help users stay updated with upcoming events. Utilizing a test-driven development (TDD) approach, the app integrates with the Google Calendar API to fetch and display event details seamlessly.',
     image: meetApp,
     link: 'https://khafiz12.github.io/meet/',
-    techniques: ['React', 'PWA', 'TDD', 'Google Calendar API']
+    techniques: ['React', 'PWA', 'TDD', 'Google Calendar API', 'AWS Lamda', 'Angular']
   }
 ];
 
