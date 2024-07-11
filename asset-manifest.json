@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-app/static/css/main.3db5fb5c.css",
-    "main.js": "/portfolio-app/static/js/main.d7c754c5.js",
+    "main.css": "/portfolio-app/static/css/main.2541e2bb.css",
+    "main.js": "/portfolio-app/static/js/main.71195dff.js",
     "static/js/453.f4fbaa6d.chunk.js": "/portfolio-app/static/js/453.f4fbaa6d.chunk.js",
     "static/media/pokedex.png": "/portfolio-app/static/media/pokedex.603e78f1832722e72506.png",
     "static/media/myflix.png": "/portfolio-app/static/media/myflix.58524e5f00c708a9577e.png",
@@ -10,12 +10,12 @@
     "static/media/profile-picture.jpg": "/portfolio-app/static/media/profile-picture.930338ed76ddaced8b22.jpg",
     "static/media/to-do-app.png": "/portfolio-app/static/media/to-do-app.a47a72e4bf505c466e82.png",
     "index.html": "/portfolio-app/index.html",
-    "main.3db5fb5c.css.map": "/portfolio-app/static/css/main.3db5fb5c.css.map",
-    "main.d7c754c5.js.map": "/portfolio-app/static/js/main.d7c754c5.js.map",
+    "main.2541e2bb.css.map": "/portfolio-app/static/css/main.2541e2bb.css.map",
+    "main.71195dff.js.map": "/portfolio-app/static/js/main.71195dff.js.map",
     "453.f4fbaa6d.chunk.js.map": "/portfolio-app/static/js/453.f4fbaa6d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3db5fb5c.css",
-    "static/js/main.d7c754c5.js"
+    "static/css/main.2541e2bb.css",
+    "static/js/main.71195dff.js"
   ]
 }
