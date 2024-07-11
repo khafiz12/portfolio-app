@@ -20,7 +20,12 @@ const Card = ({ title, description, image, link, techniques }) => {
         <h2 className="card-title">{title}</h2>
         <p className="card-description">{description}</p>
         <div className="card-links">
-          <a href={link} className="card-link" target="_blank" rel="noopener noreferrer">
+          <a
+            href={link}
+            className="card-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             View Project
           </a>
           <button className="card-link" onClick={handleModalOpen}>
