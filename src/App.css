@@ -30,8 +30,8 @@
   flex: 1;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start; /* Align items to start to place them in rows */
   padding: 20px;
-  width: 100%; /* Set width to 100% */
-  max-width: 100%; /* Ensure it doesn't exceed the screen width */
+  width: 100%;
+  max-width: 100%;
 }

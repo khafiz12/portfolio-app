@@ -1,15 +1,14 @@
-
 .card {
     background-color: #f8f9fa;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     overflow: hidden;
-    width: 350px; /* Increase the width */
+    width: calc(33.33% - 20px); /* Adjust for three cards per row with spacing */
+    margin: 10px; /* Adjust margin for spacing between cards */
     min-height: 450px; /* Set a minimum height for equal length */
     display: flex;
     flex-direction: column;
     transition: transform 0.2s ease-in-out;
-    margin-bottom: 20px;
   }
   
   .card:hover {
@@ -57,3 +56,15 @@
     text-decoration: underline;
   }
   
+  /* Ensure responsiveness for smaller screens */
+  @media (max-width: 1200px) {
+    .card {
+      width: calc(50% - 20px); /* Two cards per row on smaller screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      width: 100%; /* Full width on mobile */
+    }
+  }
