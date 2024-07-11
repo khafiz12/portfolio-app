@@ -1,25 +1,19 @@
-import React from 'react';
-import { Modal, Button } from 'react-bootstrap';
+import React from "react";
+import "./TechModal.css";
 
-const TechModal = ({ show, handleClose, techniques }) => {
+const TechModal = ({ title, techniques, onClose }) => {
   return (
-    <Modal show={show} onHide={handleClose}>
-      <Modal.Header closeButton>
-        <Modal.Title>Techniques Used</Modal.Title>
-      </Modal.Header>
-      <Modal.Body>
+    <div className="modal">
+      <div className="modal-content">
+        <span className="close" onClick={onClose}>&times;</span>
+        <h3>{title} - Techniques Used</h3>
         <ul>
           {techniques.map((technique, index) => (
             <li key={index}>{technique}</li>
           ))}
         </ul>
-      </Modal.Body>
-      <Modal.Footer>
-        <Button variant="secondary" onClick={handleClose}>
-          Close
-        </Button>
-      </Modal.Footer>
-    </Modal>
+      </div>
+    </div>
   );
 };
 
