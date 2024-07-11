@@ -2,8 +2,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  gap: 20px;
+  gap: 30px; /* More space between cards */
   padding: 20px;
+  max-width: 1200px; /* Increase the maximum width */
+  margin: 0 auto;
 }
 
 .card {
@@ -11,15 +13,16 @@
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   overflow: hidden;
-  width: 350px;
+  width: 350px; /* Wider card width */
   min-height: 450px;
   display: flex;
   flex-direction: column;
-  transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 .card:hover {
   transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
 }
 
 .card img {
@@ -48,7 +51,7 @@
 
 .card-links {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* Ensure even spacing between buttons */
 }
 
 .card-link {
