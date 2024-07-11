@@ -28,13 +28,11 @@ const Card = ({ title, description, image, link, techniques }) => {
           </button>
         </div>
       </div>
-      {isModalOpen && (
-        <TechModal
-          title={title}
-          techniques={techniques}
-          onClose={handleModalClose}
-        />
-      )}
+      <TechModal
+        show={isModalOpen}
+        handleClose={handleModalClose}
+        techniques={techniques}
+      />
     </div>
   );
 };
