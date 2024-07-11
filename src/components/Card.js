@@ -1,40 +1,29 @@
-import React, { useState } from "react";
-import TechModal from "./TechModal";
-import "./Card.css";
+import React, { useState } from 'react';
+import TechModal from './TechModal';
+import { Card as BootstrapCard, Button } from 'react-bootstrap';
 
 const Card = ({ title, description, image, link, techniques }) => {
-  const [isModalOpen, setModalOpen] = useState(false);
+  const [showModal, setShowModal] = useState(false);
 
-  const handleModalOpen = () => {
-    setModalOpen(true);
-  };
-
-  const handleModalClose = () => {
-    setModalOpen(false);
-  };
+  const handleOpenModal = () => setShowModal(true);
+  const handleCloseModal = () => setShowModal(false);
 
   return (
-    <div className="card">
-      <img src={image} alt={title} />
-      <div className="card-body">
-        <h2 className="card-title">{title}</h2>
-        <p className="card-description">{description}</p>
-        <div className="card-links">
-          <a href={link} className="card-link" target="_blank" rel="noopener noreferrer">
+    <div className="col-md-4 mb-4">
+      <BootstrapCard>
+        <BootstrapCard.Img variant="top" src={image} />
+        <BootstrapCard.Body>
+          <BootstrapCard.Title>{title}</BootstrapCard.Title>
+          <BootstrapCard.Text>{description}</BootstrapCard.Text>
+          <Button variant="primary" onClick={handleOpenModal}>
+            View Techniques
+          </Button>
+          <a href={link} className="btn btn-secondary ml-2" target="_blank" rel="noopener noreferrer">
             View Project
           </a>
-          <button className="card-link" onClick={handleModalOpen}>
-            Techniques
-          </button>
-        </div>
-      </div>
-      {isModalOpen && (
-        <TechModal
-          title={title}
-          techniques={techniques}
-          onClose={handleModalClose}
-        />
-      )}
+        </BootstrapCard.Body>
+      </BootstrapCard>
+      <TechModal show={showModal} handleClose={handleCloseModal} techniques={techniques} />
     </div>
   );
 };
