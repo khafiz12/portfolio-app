@@ -19,8 +19,15 @@ h1 {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   overflow: hidden;
-  width: 300px;
-  text-align: left;
+  width: 350px; /* Increase the width */
+  min-height: 450px; /* Set a minimum height for equal length */
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
 }
 
 .card img {
@@ -30,7 +37,10 @@ h1 {
 }
 
 .card-body {
+  flex: 1;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-title {
@@ -39,6 +49,7 @@ h1 {
 }
 
 .card-description {
+  flex: 1;
   margin-bottom: 20px;
   color: #6c757d;
 }
@@ -47,6 +58,7 @@ h1 {
   display: inline-block;
   color: #007bff;
   text-decoration: none;
+  margin-right: 10px; /* Add margin between buttons */
 }
 
 .card-link:hover {
