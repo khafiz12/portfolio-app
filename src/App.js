@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Work from './pages/Work';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 
