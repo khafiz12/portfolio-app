@@ -16,8 +16,10 @@ const Contact = () => {
                 <h2>Contact Information</h2>
                 <ul className="contact-list">
                     <li>e-mail: karimhafiz7@gmail.com</li>
-                    <li> Cell: (917)-545-6181 </li>
-                    <li><a href="https://linkedin.com" className="contact-list-item">LinkedIn</a></li>
+                    <li>Cell: (917)-545-6181</li>
+                    <li><a href="https://www.linkedin.com/in/your-profile" target="_blank" className="contact-list-item">LinkedIn</a></li>
+                    <li><a href="https://twitter.com/your-profile" target="_blank" className="contact-list-item">Twitter</a></li>
+                    <li><a href="https://medium.com/@your-profile" target="_blank" className="contact-list-item">Medium</a></li>
                 </ul>
             </div>
 
@@ -60,9 +62,15 @@ const Contact = () => {
             <footer className="contact-footer">
                 <h2>You can find me by clicking the links below!</h2>
                 <div className="icon-div">
-                    <img src="img/twitter.svg" className="pic" alt="twitter" />
-                    <img src="img/instagram.svg" className="pic" alt="instagram" />
-                    <img src="img/facebook.svg" className="pic" alt="facebook" />
+                    <a href="https://twitter.com/your-profile" target="_blank">
+                        <img src="img/twitter.svg" className="pic" alt="twitter" />
+                    </a>
+                    <a href="https://medium.com/@your-profile" target="_blank">
+                        <img src="img/medium.svg" className="pic" alt="medium" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/your-profile" target="_blank">
+                        <img src="img/linkedin.svg" className="pic" alt="linkedin" />
+                    </a>
                 </div>
             </footer>
         </main>
