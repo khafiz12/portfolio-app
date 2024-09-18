@@ -66,7 +66,7 @@ const Contact = () => {
                     <a href="https://medium.com/@your-profile" target="_blank">
                         <img src={mediumLogo} className="pic" alt="medium" />
                     </a>
-                    <a href="https://www.linkedin.com/in/your-profile" target="_blank">
+                    <a href="https://www.linkedin.com/in/karim-hafiz-4227b530a/" target="_blank">
                         <img src={linkedinLogo} className="pic" alt="linkedin" />
                     </a>
                 </div>
