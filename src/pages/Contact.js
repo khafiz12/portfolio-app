@@ -7,9 +7,8 @@ const Contact = () => {
             <div className="container">
                 <h2>Home Address</h2>
                 <p>Karim Hafiz</p>
-                <p>199 2nd street</p>
-                <p>Apartment E310</p>
-                <p>Mineola NY 11501</p>
+                <p>13312 Burkitts Road</p>
+                <p>Fairfax, Va 22033</p>
             </div>
 
             <div className="container contact-div">
