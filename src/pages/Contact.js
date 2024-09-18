@@ -1,5 +1,7 @@
 import React from 'react';
 import "./Contact.css"
+import mediumLogo from './img/medium.png';
+import linkedinLogo from './img/linkedin_icon.png';
 
 const Contact = () => {
     return (
@@ -65,10 +67,10 @@ const Contact = () => {
                         <img src="img/twitter.svg" className="pic" alt="twitter" />
                     </a>
                     <a href="https://medium.com/@your-profile" target="_blank">
-                        <img src="img/medium.png" className="pic" alt="medium" />
+                        <img src={mediumLogo} className="pic" alt="medium" />
                     </a>
                     <a href="https://www.linkedin.com/in/your-profile" target="_blank">
-                        <img src="img/linkedin_icon.png." className="pic" alt="linkedin" />
+                        <img src={linkedinLogo} className="pic" alt="linkedin" />
                     </a>
                 </div>
             </footer>
