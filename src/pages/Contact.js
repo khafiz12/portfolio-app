@@ -63,9 +63,6 @@ const Contact = () => {
             <footer className="contact-footer">
                 <h2>You can find me by clicking the links below!</h2>
                 <div className="icon-div">
-                    <a href="https://twitter.com/your-profile" target="_blank">
-                        <img src="img/twitter.svg" className="pic" alt="twitter" />
-                    </a>
                     <a href="https://medium.com/@your-profile" target="_blank">
                         <img src={mediumLogo} className="pic" alt="medium" />
                     </a>
