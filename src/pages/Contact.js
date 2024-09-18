@@ -16,9 +16,9 @@ const Contact = () => {
                 <ul className="contact-list">
                     <li>e-mail: karimhafiz7@gmail.com</li>
                     <li>Cell: (917)-545-6181</li>
-                    <li><a href="https://www.linkedin.com/in/your-profile" target="_blank" className="contact-list-item">LinkedIn</a></li>
+                    <li><a href="https://www.linkedin.com/feed/" target="_blank" className="contact-list-item">LinkedIn</a></li>
                     <li><a href="https://twitter.com/your-profile" target="_blank" className="contact-list-item">Twitter</a></li>
-                    <li><a href="https://medium.com/@your-profile" target="_blank" className="contact-list-item">Medium</a></li>
+                    <li><a href="https://medium.com/@karimhafiz7" target="_blank" className="contact-list-item">Medium</a></li>
                 </ul>
             </div>
 
