@@ -10,6 +10,7 @@ const Contact = () => {
                 <h2>Home Address</h2>
                 <p>Karim Hafiz</p>
                 <p>13312 Burkitts Road</p>
+                <p>Fairfax, Va 22033</p>
             </div>
 
             <div className="container contact-div">
