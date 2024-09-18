@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Contact.css"
-import mediumLogo from './img/medium.png';
-import linkedinLogo from './img/linkedin-icon.png';
+import mediumLogo from '../img/medium.png';
+import linkedinLogo from '../img/linkedin-icon.png';
 
 const Contact = () => {
     return (
