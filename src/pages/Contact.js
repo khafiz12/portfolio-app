@@ -65,10 +65,10 @@ const Contact = () => {
                         <img src="img/twitter.svg" className="pic" alt="twitter" />
                     </a>
                     <a href="https://medium.com/@your-profile" target="_blank">
-                        <img src="img/medium.svg" className="pic" alt="medium" />
+                        <img src="img/medium.png" className="pic" alt="medium" />
                     </a>
                     <a href="https://www.linkedin.com/in/your-profile" target="_blank">
-                        <img src="img/linkedin.svg" className="pic" alt="linkedin" />
+                        <img src="img/linkedin_icon.png." className="pic" alt="linkedin" />
                     </a>
                 </div>
             </footer>
